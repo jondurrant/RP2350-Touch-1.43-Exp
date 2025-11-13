@@ -51,6 +51,7 @@ int main()
 
 	Widgets_Init();
 
+	lv_disp_set_rotation(NULL, LV_DISP_ROT_90);
 
 
 	while (true){
